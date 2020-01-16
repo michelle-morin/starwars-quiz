@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Which Star Wars character are you?</h1>
+      <h3>Take our quiz to find out!</h3>
+    </div>
+    <form>
+      <p>What is your favorite color?</p>
+      <select class="form-control" id="color">
+          <option>Black</option>
+          <option>Blue</option>
+          <option>Red</option>
+          <option>Gray</option>
+      </select>
+      <p>What is your favorite actor?</p>
+      <select class="form-control" id="actor">
+          <option>Carrie Fisher</option>
+          <option>Adam Driver</option>
+          <option>Harrison Ford</option>
+          <option>Daisy Ridley</option>
+      </select>
+      <button type="submit" class="btn-info">Find out what character I am!</button>
+    </form>
+
+    <div id="result">
+      <p>Based on your answers, your Star Wars character is <span class="character"></span>.</p>
+    </div>
+  </div>
+</body>
+</html>
